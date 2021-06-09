@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+}
+
 #canvas1 {
   border: 2px solid black;
   height: 400px;
@@ -6,4 +12,18 @@
   top: 50%;
   transform: translate(-50%, -50%);
   width: 600px;
+}
+
+.title,
+.guide {
+  text-align: center;
+}
+
+.title {
+  font-size: 70px;
+  margin-top: 140px;
+}
+
+.guide {
+  font-size: 21px;
 }
